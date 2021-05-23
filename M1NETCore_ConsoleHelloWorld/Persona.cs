@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace M1NETCore_ConsoleHelloWorld
+﻿namespace M1NETCore_ConsoleHelloWorld
 {
     public class Persona
     {
@@ -14,15 +8,13 @@ namespace M1NETCore_ConsoleHelloWorld
 
         public Persona()
         {
-
         }
 
-        public Persona(string dni,string nombre,int telefono)
+        public Persona(string dni, string nombre, int telefono)
         {
             this.dni = dni;
             this.nombre = nombre;
             this.telefono = telefono;
-
         }
     }
 }
